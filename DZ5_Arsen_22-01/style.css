@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.converter {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    flex-basis: 30%;
+    margin-right: 10px;
+}
+
+.input-group select {
+    flex-basis: 50%;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex-basis: 20%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}

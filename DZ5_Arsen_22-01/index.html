@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--CONVERT-->
+
+<h1>Конвертер валют</h1>
+<div class="converter">
+    <div class="input-group">
+        <label for="from">Из:</label>
+        <select id="from">
+            <option value="SOM">SOM</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EURO</option>
+        </select>
+        <input type="number" id="fromAmount">
+    </div>
+    <div class="input-group">
+        <label for="to">В:</label>
+        <select id="to">
+            <option value="SOM">SOM</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EURO</option>
+        </select>
+        <input type="number" id="toAmount" disabled>
+    </div>
+    <button id="convertButton">Конвертировать</button>
+    <button id="clearButton">Очистить</button>
+</div>
+
+
+
+</body>
+    <script src="main.js"></script>
+</html>
